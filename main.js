@@ -1,5 +1,6 @@
 
-     let tasks = JSON.parse(localStorage.getItem('tasks')) || [];
+      'use strict';
+    let tasks = JSON.parse(localStorage.getItem('tasks')) || [];
 
     function renderTasks() {
       const list = document.getElementById('taskList');
